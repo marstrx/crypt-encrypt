@@ -29,7 +29,7 @@ async function encryptText() {
 async function decryptText() {
     const input = document.getElementById("inputText").value;
     const password = document.getElementById("key").value;
-    if (!input || !password) return alert("Please enter both encrypted data and password");
+    if (!input || !password) return alert("Please enter both encrypted text and password");
 
     try {
         const [ivString, encryptedData] = input.split(":");
