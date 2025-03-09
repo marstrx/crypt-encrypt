@@ -41,6 +41,6 @@ async function decryptText() {
 
         document.getElementById("output").textContent = new TextDecoder().decode(decrypted);
     } catch {
-        alert("Decryption failed. Check password or input data.");
+        alert("Decryption failed. Check password or input text.");
     }
 }
