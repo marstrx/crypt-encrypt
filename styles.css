@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(130, 130, 190);
+    height: 100vh;
+}
+.motherBoard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.crypt textarea{
+    padding: 10%;
+    max-width: 100%;
+    width: 600px;
+    border-radius: 1em;
+   
+}
+.encrypt textarea{
+    padding: 10%;
+    max-width: 100%;
+    width: 600px;
+    border-radius: 1em;
+    
+}
+.btns{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.btns button{
+    padding: 10px;
+    width: 17%;
+    border-radius: 0.6em;
+    overflow: hidden;
+    outline: none;
+}
+.btns button:nth-of-type(1){
+    background-color: gold;
+    border-color: gold;
+}
+.btns button:nth-of-type(2){
+    background-color: red;
+    border-color: red;
+}
+.btns button:nth-of-type(2):hover{
+    background-color: rgb(151, 47, 47);
+    
+}
+
+@media (max-width:632px){
+    .encrypt textarea{
+        width: 500px;
+    }
+    .crypt textarea{
+        width: 500px;
+    }
+}
+
+@media (max-width:517px){
+    .encrypt textarea{
+        width: 470px;
+    }
+    .crypt textarea{
+        width: 470px;
+    }
+}
+@media (max-width:480px){
+    .encrypt textarea{
+        width: 440px;
+    }
+    .crypt textarea{
+        width: 440px;
+    }
+}
+
+@media (max-width:450px){
+    .encrypt textarea{
+        width: 400px;
+    }
+    .crypt textarea{
+        width: 400px;
+    }
+}
+@media (max-width:420px){
+    .encrypt textarea{
+        width: 380px;
+    }
+    .crypt textarea{
+        width: 380px;
+    }
+}
